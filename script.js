@@ -1,11 +1,13 @@
 function firstChar(text) {
   // your code here
-	  let char = text.trimStart();
+	  let trimedtext = text.trimStart();
 	
-	 if (char.length === 0) {
+	 if (trimedtext.length === 0) {
         return ''; 
+     }
+	return  trimedtext[0];
 }
-       return  char[0];
+       
 
 
 // Do not change the code below
